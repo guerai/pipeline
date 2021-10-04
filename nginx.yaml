@@ -1,3 +1,4 @@
+---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -24,18 +25,9 @@ spec:
     spec:
       containers:
       - name: nginx-jenk
-        image: akspipeline.azurecr.io/website/website:latest
+        image: akspipeline.azurecr.io/nginx/nginx:latest
         ports:
         - containerPort: 80
-    #    readinessProbe:
-    #      httpGet:
-    #        path: /
-    #        port: 80
-    #      periodSeconds: 60
-    #      timeoutSeconds: 10
-    #    env:
-    #    - name: TITLE
-    #      value: "Welcome to Azure Kubernetes Service (AKS)"
 ---
 apiVersion: v1
 kind: Service
