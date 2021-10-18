@@ -2,3 +2,4 @@ Var1: 'variabile1'
 Var2: 'variabile2'
 Var3: 'variabile3'
 ReplicaSet: 3
+Container_Registry_Base: 'unitn.icts'
