@@ -1,4 +1,4 @@
-Nickname: authservice.srv.webapi
+Nickname1: authservice.srv.webapi
 path: /nginx-jerk
 ReplicaSet: 3
 Container_Registry_Base: unitn.icts
